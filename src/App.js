@@ -8,7 +8,7 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <div>
+    <div className="backgroundcolor">
       <Boton />
       <Container fluid>
         <NavBar />

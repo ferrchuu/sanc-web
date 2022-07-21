@@ -2,21 +2,26 @@ import React from "react";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col, Carousel } from "react-bootstrap";
-import imagen1 from "../images/imagen1.jpeg";
-import imagen2 from "../images/imagen2.jpeg";
-import imagen3 from "../images/imagen3.jpeg";
-import imagen4 from "../images/imagen4.jpeg";
-import imagen5 from "../images/imagen5.jpeg";
+import couplelove from "../images/couple-love.jpg";
+import romant from "../images/romant.jpg";
+import candle1 from "../images/candle1.jpg";
+import couples2 from "../images/couples2.jpg";
+import wine from "../images/wine.jpg";
+import "../components/Header.css";
 
 function Header() {
   return (
     <div>
       <Container fluid="xxl">
         <Row>
-          <Col>
+          <Col md={{ span: 6, offset: 3 }}>
             <Carousel fade>
               <Carousel.Item>
-                <img src={imagen1} className="d-block w-100" alt="imagen1" />
+                <img
+                  src={couplelove}
+                  alt="couplelove"
+                  className=" img-rescale"
+                />
                 <Carousel.Caption>
                   <h3>EL AMOR ES UN LENGUAJE UNIVERSAL</h3>
                   <p>
@@ -27,7 +32,7 @@ function Header() {
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
-                <img src={imagen2} className="d-block w-100" alt="imagen2" />
+                <img src={wine} alt="wine" className=" img-rescale" />
 
                 <Carousel.Caption>
                   <h3>TRATO PERSONALIZADO</h3>
@@ -39,7 +44,7 @@ function Header() {
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
-                <img src={imagen3} className="d-block w-100" alt="imagen3" />
+                <img src={romant} alt="romant" className=" img-rescale" />
 
                 <Carousel.Caption>
                   <h3>TRAYECTORIA</h3>
@@ -50,7 +55,7 @@ function Header() {
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
-                <img src={imagen4} className="d-block w-100" alt="imagen4" />
+                <img src={candle1} alt="candle1" className=" img-rescale" />
 
                 <Carousel.Caption>
                   <h3>SEGUIMIENTO FULL TIME</h3>
@@ -62,7 +67,7 @@ function Header() {
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
-                <img src={imagen5} className="d-block w-100" alt="imagen5" />
+                <img src={couples2} alt="couples2" className=" img-rescale" />
 
                 <Carousel.Caption>
                   <h3>TERAPIAS HOLISTICAS </h3>
