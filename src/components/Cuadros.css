@@ -1,0 +1,5 @@
+.subtext {
+  font-family: Verdana;
+  font-size: calc(4px + 2vmin);
+  text-align: center;
+}

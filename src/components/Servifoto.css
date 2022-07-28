@@ -1,0 +1,8 @@
+.servicio-rescale {
+  height: 600px;
+  max-width: 600px;
+  object-fit: cover;
+}
+.colorblack {
+  color: black;
+}

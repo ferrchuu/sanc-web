@@ -1,0 +1,14 @@
+.textcenter {
+  text-align: center;
+  font-family: Verdana;
+  font-size: calc(5px + 2vmin);
+  color: #73607c;
+}
+
+.accent1 {
+  color: #fa8d70;
+}
+
+.accent2 {
+  color: #fcc666;
+}

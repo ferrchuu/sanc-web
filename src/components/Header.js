@@ -23,8 +23,10 @@ function Header() {
                   className=" img-rescale"
                 />
                 <Carousel.Caption>
-                  <h3>EL AMOR ES UN LENGUAJE UNIVERSAL</h3>
-                  <p>
+                  <h3 className="headertext">
+                    EL AMOR ES UN LENGUAJE UNIVERSAL
+                  </h3>
+                  <p className="subtext">
                     Vemos a las personas según su plano energético, no
                     diferenciamos de razas, religión, géneros... solo amor del
                     uno al otro.
@@ -35,8 +37,8 @@ function Header() {
                 <img src={wine} alt="wine" className=" img-rescale" />
 
                 <Carousel.Caption>
-                  <h3>TRATO PERSONALIZADO</h3>
-                  <p>
+                  <h3 className="headertext">TRATO PERSONALIZADO</h3>
+                  <p className="subtext">
                     Le damos a cada cliente la atención que requiere para hacer
                     del paso por nuestro centro, la mejor experiencia y la más
                     superadora.
@@ -47,8 +49,8 @@ function Header() {
                 <img src={romant} alt="romant" className=" img-rescale" />
 
                 <Carousel.Caption>
-                  <h3>TRAYECTORIA</h3>
-                  <p>
+                  <h3 className="headertext">TRAYECTORIA</h3>
+                  <p className="subtext">
                     Miles de clientes satisfechos a lo largo de estos 17 años,
                     apoyando y acompañando a cada uno de ellos en su camino.
                   </p>
@@ -58,8 +60,8 @@ function Header() {
                 <img src={candle1} alt="candle1" className=" img-rescale" />
 
                 <Carousel.Caption>
-                  <h3>SEGUIMIENTO FULL TIME</h3>
-                  <p>
+                  <h3 className="headertext">SEGUIMIENTO FULL TIME</h3>
+                  <p className="subtext">
                     Nuestros profesionales tienen un seguimiento constante sobre
                     el caso, estando en constante comunicación y dispuesto a
                     solucionar cualquier duda o inquietud las 24hs del día.
@@ -70,8 +72,8 @@ function Header() {
                 <img src={couples2} alt="couples2" className=" img-rescale" />
 
                 <Carousel.Caption>
-                  <h3>TERAPIAS HOLISTICAS </h3>
-                  <p>
+                  <h3 className="headertext">TERAPIAS HOLISTICAS </h3>
+                  <p className="subtext">
                     DESEMPANAMOS UNA LABOR FUNDAMENTAL CON ESTAS EN EL
                     EQUILIBRIO MENTAL Y CORPORAL. FAVORECE LA SANACION Y EL
                     BIENESTAR INTEGRAL DEL ORGANISMO

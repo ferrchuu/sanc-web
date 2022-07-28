@@ -1,20 +1,23 @@
 import "./App.css";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Row } from "react-bootstrap";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
 import NavBar from "./components/NavBar";
-import Boton from "./components/Boton";
-import Header from "./components/Header";
+import Faq from "./pages/Faq";
+import Servicios from "./pages/Servicios";
 
 function App() {
   return (
     <div className="backgroundcolor">
-      <Boton />
-      <Container fluid>
+      <Router>
         <NavBar />
-        <Header />
-        <Boton></Boton>
-      </Container>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/servicios" element={<Servicios />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

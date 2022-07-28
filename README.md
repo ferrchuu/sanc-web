@@ -72,3 +72,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <a href="https://www.freepik.com/photos/couple-hugging">Couple hugging photo created by ArthurHidden - www.freepik.com</a>
 <a href='https://www.freepik.com/photos/dinner-date'>Dinner date photo created by master1305 - www.freepik.com</a>
 <a href='https://www.freepik.com/photos/dinner-date'>Dinner date photo created by DCStudio - www.freepik.com</a>
+<a href='https://www.svgrepo.com/svg/384356/close-cross-eye-hidden-vision'> Close Cross Eye Hidden Vision SVG Vector created byy Hasym Ari https://www.behance.net/\_hasyimasari/moodboards</a>
+<a href='https://www.freepik.com/vectors/elegant-lines'>Elegant lines vector created by starline - www.freepik.com</a>

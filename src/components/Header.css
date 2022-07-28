@@ -15,7 +15,14 @@
   padding: 1rem;
 }
 
-.testimonio-sub {
+.headertext {
+  font-family: Verdana;
+  font-size: calc(5px + 2vmin);
+  color: #fcc666;
+  text-align: center;
+}
+
+.subtext {
   font-family: Verdana;
   font-size: calc(5px + 2vmin);
   color: white;
